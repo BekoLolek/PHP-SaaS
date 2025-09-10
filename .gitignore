@@ -1,0 +1,78 @@
+# ======================
+# Global ignores
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ======================
+# Backend (Laravel)
+# ======================
+backend/vendor/
+backend/node_modules/
+backend/storage/*.key
+backend/storage/*.log
+backend/storage/*.cache
+backend/storage/debugbar/
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+backend/bootstrap/cache/*
+
+# Laravel environment & IDE
+backend/.env
+backend/.env.*
+backend/.phpunit.result.cache
+backend/.php-cs-fixer.cache
+backend/Homestead.yaml
+backend/Homestead.json
+backend/.idea/
+backend/.vscode/
+
+# Laravel build outputs
+backend/public/hot
+backend/public/storage
+backend/public/mix-manifest.json
+backend/public/build
+backend/public/js/*.js
+backend/public/css/*.css
+backend/public/js/*.map
+backend/public/css/*.map
+
+# ======================
+# Frontend (React)
+# ======================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.next/
+frontend/out/
+
+# React testing
+frontend/coverage/
+frontend/*.lcov
+
+# React logs & locks
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# React environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# React IDE
+frontend/.idea/
+frontend/.vscode/
